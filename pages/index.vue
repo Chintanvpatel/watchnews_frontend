@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     url() {
-      return 'http://localhost:1337/newsitems?_start=' + this.start + '&_limit=' + this.limit + '&_sort=pub_date:desc'
+      return 'http://152.67.1.23:1337/newsitems?_start=' + this.start + '&_limit=' + this.limit + '&_sort=pub_date:desc'
     }
   },
   created() {
