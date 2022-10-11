@@ -7,7 +7,7 @@ export default {
 
   // environment variables used by nuxt
   publicRuntimeConfig: {
-    strapiEndpoint: 'http://localhost:1337',
+    strapiEndpoint: 'http://152.67.1.23:1337',
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -48,7 +48,7 @@ export default {
   ],
 
   strapi: {
-    url: 'http://localhost:1337',
+    url: 'http://152.67.1.23:1337',
     entities: ['newsitems', 'subscribers'],
   },
 
