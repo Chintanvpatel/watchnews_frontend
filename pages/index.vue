@@ -55,7 +55,6 @@ export default {
     infiniteScroll($state) {
       setTimeout(() => {
         this.start += 10
-        this.limit += 10
         axios
           .get(this.url)
           .then((response) => {
